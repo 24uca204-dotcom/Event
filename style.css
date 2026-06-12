@@ -7,17 +7,17 @@ Accent Navy: #1E293B
 */
 
 :root {
-    --cyan: #00E5FF;
-    --cyan-hover: #00c4db;
-    --off-white: #F8FAFC;
-    --light-gray: #E2E8F0;
-    --dark-navy: #0F172A;
-    --accent-navy: #1E293B;
-    --text-muted: #64748B;
-    --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.1);
-    --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.1);
-    --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.1);
-    --shadow-cyan: 0 4px 20px rgba(0, 229, 255, 0.3);
+    --cyan: #CC4E4A; /* Terracotta / Rust */
+    --cyan-hover: #A63C38; /* Darker Terracotta */
+    --off-white: #FFFDD0; /* Cream */
+    --light-gray: #EAE6C9; /* Slightly darker cream for borders/inputs */
+    --dark-navy: #3B2F2F; /* Dark Brown */
+    --accent-navy: #2C2323; /* Darker Brown */
+    --text-muted: #556B2F; /* Olive Green */
+    --shadow-sm: 0 1px 3px rgba(59, 47, 47, 0.1);
+    --shadow-md: 0 4px 6px -1px rgba(59, 47, 47, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(59, 47, 47, 0.1);
+    --shadow-cyan: 0 4px 20px rgba(204, 78, 74, 0.3);
 }
 
 * {
