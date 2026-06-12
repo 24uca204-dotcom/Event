@@ -367,16 +367,16 @@ section.active {
 }
 
 .card-icon {
-    width: 70px;
-    height: 70px;
-    background: var(--off-white);
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--cyan);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 1.5rem;
     font-size: 2rem;
-    color: var(--dark-navy);
     transition: all 0.3s;
 }
 
@@ -386,22 +386,20 @@ section.active {
 }
 
 .event-card h3 {
-    font-size: 1.5rem;
-    color: var(--dark-navy);
     margin-bottom: 1rem;
+    color: var(--off-white);
 }
 
 .event-card p {
-    color: var(--text-muted);
-    font-size: 0.95rem;
+    color: var(--light-gray);
     margin-bottom: 1.5rem;
-    min-height: 60px;
+    font-size: 0.95rem;
 }
 
 .price-tag {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 800;
-    color: var(--dark-navy);
+    color: var(--cyan);
     margin-bottom: 1.5rem;
 }
 
