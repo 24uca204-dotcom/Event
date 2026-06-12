@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LUNA EVENTS Event Management</title>
+    <title>LUNA DREAMS Event Management</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <header>
-        <div class="logo"><i class="fas fa-moon"></i> LUNA EVENTS</div>
+        <div class="logo"><i class="fas fa-moon"></i> LUNA DREAMS</div>
         <nav>
             <ul>
                 <li><a href="#" class="nav-link active" onclick="showSection('home', this)">Home</a></li>
@@ -23,7 +25,8 @@
                     <div class="user-badge">
                         <i class="fas fa-user-circle"></i> <span id="username-display"></span>
                     </div>
-                    <button onclick="logout()" class="btn-logout" title="Logout"><i class="fas fa-sign-out-alt"></i></button>
+                    <button onclick="logout()" class="btn-logout" title="Logout"><i
+                            class="fas fa-sign-out-alt"></i></button>
                 </li>
             </ul>
         </nav>
@@ -35,11 +38,14 @@
             <div class="hero">
                 <div class="hero-content">
                     <h1>Crafting Unforgettable Memories</h1>
-                    <p>Experience the pinnacle of event planning. Elegance, precision, and a touch of magic for your special days.</p>
-                    <button class="btn-primary btn-large" onclick="showSection('events', document.querySelectorAll('.nav-link')[2])">Explore Events <i class="fas fa-arrow-right"></i></button>
+                    <p>Experience the pinnacle of event planning. Elegance, precision, and a touch of magic for your
+                        special days.</p>
+                    <button class="btn-primary btn-large"
+                        onclick="showSection('events', document.querySelectorAll('.nav-link')[2])">Explore Events <i
+                            class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
-            
+
             <div class="features-row">
                 <div class="feature"><i class="fas fa-star"></i> Premium Venues</div>
                 <div class="feature"><i class="fas fa-utensils"></i> Exquisite Catering</div>
@@ -55,7 +61,10 @@
             </div>
             <div class="content-box">
                 <i class="fas fa-quote-left quote-icon"></i>
-                <p>LUNA EVENTS is a luxury event management company dedicated to transforming your vision into reality. With over a decade of excellence, we specialize in curating bespoke experiences—from intimate birthday celebrations to grand, opulent weddings. Our meticulous attention to detail ensures your only job is to enjoy the moment.</p>
+                <p>LUNA DREAMS is a luxury event management company dedicated to transforming your vision into reality.
+                    With over a decade of excellence, we specialize in curating bespoke experiences—from intimate
+                    birthday celebrations to grand, opulent weddings. Our meticulous attention to detail ensures your
+                    only job is to enjoy the moment.</p>
             </div>
         </section>
 
@@ -66,33 +75,45 @@
                 <div class="divider"></div>
             </div>
             <div class="events-grid">
-                <div class="event-card" style="background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.9)), url('images/WhatsApp Image 2026-06-11 at 9.48.53 AM.jpeg') center/cover;">
+                <div class="event-card"
+                    style="background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.9)), url('images/WhatsApp Image 2026-06-11 at 9.48.53 AM.jpeg') center/cover;">
                     <div class="card-icon"><i class="fas fa-birthday-cake"></i></div>
                     <h3>Birthday Party</h3>
-                    <p>Complete birthday planning including customized cakes, stunning thematic decoration, and engaging entertainment.</p>
+                    <p>Complete birthday planning including customized cakes, stunning thematic decoration, and engaging
+                        entertainment.</p>
                     <div class="price-tag">₹15,500</div>
-                    <button class="btn-primary w-full" onclick="openApplyForm('Birthday Party', '15,500')">Apply Now</button>
+                    <button class="btn-primary w-full" onclick="openApplyForm('Birthday Party', '15,500')">Apply
+                        Now</button>
                 </div>
-                <div class="event-card" style="background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.9)), url('images/WhatsApp Image 2026-06-11 at 9.49.28 AM (1).jpeg') center/cover;">
+                <div class="event-card"
+                    style="background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.9)), url('images/WhatsApp Image 2026-06-11 at 9.49.28 AM (1).jpeg') center/cover;">
                     <div class="card-icon"><i class="fas fa-gift"></i></div>
                     <h3>Surprise Party</h3>
-                    <p>Thrilling surprise parties planned with absolute secrecy. We handle the logistics while you keep the secret.</p>
+                    <p>Thrilling surprise parties planned with absolute secrecy. We handle the logistics while you keep
+                        the secret.</p>
                     <div class="price-tag">₹18,000</div>
-                    <button class="btn-primary w-full" onclick="openApplyForm('Surprise Party', '18,000')">Apply Now</button>
+                    <button class="btn-primary w-full" onclick="openApplyForm('Surprise Party', '18,000')">Apply
+                        Now</button>
                 </div>
-                <div class="event-card" style="background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.9)), url('images/WhatsApp Image 2026-06-11 at 9.49.28 AM.jpeg') center/cover;">
+                <div class="event-card"
+                    style="background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.9)), url('images/WhatsApp Image 2026-06-11 at 9.49.28 AM.jpeg') center/cover;">
                     <div class="card-icon"><i class="fas fa-ring"></i></div>
                     <h3>Marriage Party</h3>
-                    <p>Grand weddings with premium catering, elegant floral decor, and top-tier photography and videography.</p>
+                    <p>Grand weddings with premium catering, elegant floral decor, and top-tier photography and
+                        videography.</p>
                     <div class="price-tag">₹150,000</div>
-                    <button class="btn-primary w-full" onclick="openApplyForm('Marriage Party', '150,000')">Apply Now</button>
+                    <button class="btn-primary w-full" onclick="openApplyForm('Marriage Party', '150,000')">Apply
+                        Now</button>
                 </div>
-                <div class="event-card" style="background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.9)), url('images/WhatsApp Image 2026-06-11 at 9.49.29 AM (1).jpeg') center/cover;">
+                <div class="event-card"
+                    style="background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.9)), url('images/WhatsApp Image 2026-06-11 at 9.49.29 AM (1).jpeg') center/cover;">
                     <div class="card-icon"><i class="fas fa-magic"></i></div>
                     <h3>Decoration</h3>
-                    <p>Customized, breathtaking decorations for any venue or occasion. Transform your space into a masterpiece.</p>
+                    <p>Customized, breathtaking decorations for any venue or occasion. Transform your space into a
+                        masterpiece.</p>
                     <div class="price-tag">₹16,500</div>
-                    <button class="btn-primary w-full" onclick="openApplyForm('Decoration', '16,500')">Apply Now</button>
+                    <button class="btn-primary w-full" onclick="openApplyForm('Decoration', '16,500')">Apply
+                        Now</button>
                 </div>
             </div>
         </section>
@@ -105,15 +126,22 @@
             </div>
             <div class="gallery-container">
                 <div class="gallery-row gallery-row-4">
-                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.48.53 AM.jpeg" alt="Event Image"></div>
-                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.28 AM (1).jpeg" alt="Event Image"></div>
-                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.28 AM.jpeg" alt="Event Image"></div>
-                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.29 AM (1).jpeg" alt="Event Image"></div>
+                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.48.53 AM.jpeg"
+                            alt="Event Image"></div>
+                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.28 AM (1).jpeg"
+                            alt="Event Image"></div>
+                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.28 AM.jpeg"
+                            alt="Event Image"></div>
+                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.29 AM (1).jpeg"
+                            alt="Event Image"></div>
                 </div>
                 <div class="gallery-row gallery-row-3">
-                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.29 AM (2).jpeg" alt="Event Image"></div>
-                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.29 AM (3).jpeg" alt="Event Image"></div>
-                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.29 AM.jpeg" alt="Event Image"></div>
+                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.29 AM (2).jpeg"
+                            alt="Event Image"></div>
+                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.29 AM (3).jpeg"
+                            alt="Event Image"></div>
+                    <div class="img-wrapper"><img src="images/WhatsApp Image 2026-06-11 at 9.49.29 AM.jpeg"
+                            alt="Event Image"></div>
                 </div>
             </div>
         </section>
@@ -123,16 +151,25 @@
     <footer class="site-footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h3 class="footer-logo"><i class="fas fa-moon"></i> LUNA EVENTS</h3>
-                <p>Crafting unforgettable memories with premium event management services. Your vision, our masterpiece.</p>
+                <h3 class="footer-logo"><i class="fas fa-moon"></i> LUNA DREAMS</h3>
+                <p>Crafting unforgettable memories with premium event management services. Your vision, our masterpiece.
+                </p>
             </div>
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#" onclick="showSection('home', document.querySelectorAll('.nav-link')[0]); window.scrollTo(0,0);">Home</a></li>
-                    <li><a href="#" onclick="showSection('about', document.querySelectorAll('.nav-link')[1]); window.scrollTo(0,0);">About Us</a></li>
-                    <li><a href="#" onclick="showSection('events', document.querySelectorAll('.nav-link')[2]); window.scrollTo(0,0);">Events</a></li>
-                    <li><a href="#" onclick="showSection('gallery', document.querySelectorAll('.nav-link')[3]); window.scrollTo(0,0);">Gallery</a></li>
+                    <li><a href="#"
+                            onclick="showSection('home', document.querySelectorAll('.nav-link')[0]); window.scrollTo(0,0);">Home</a>
+                    </li>
+                    <li><a href="#"
+                            onclick="showSection('about', document.querySelectorAll('.nav-link')[1]); window.scrollTo(0,0);">About
+                            Us</a></li>
+                    <li><a href="#"
+                            onclick="showSection('events', document.querySelectorAll('.nav-link')[2]); window.scrollTo(0,0);">Events</a>
+                    </li>
+                    <li><a href="#"
+                            onclick="showSection('gallery', document.querySelectorAll('.nav-link')[3]); window.scrollTo(0,0);">Gallery</a>
+                    </li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -152,7 +189,7 @@
         <div class="modal-content auth-content">
             <span class="close" onclick="closeAuthModal()">&times;</span>
             <div class="modal-header-accent"></div>
-            
+
             <div id="login-container">
                 <h2 class="modal-title">Welcome Back</h2>
                 <p class="modal-subtitle">Login to book your events</p>
@@ -166,7 +203,8 @@
                         <input type="password" id="login-password" placeholder="Password" required>
                     </div>
                     <button type="submit" class="btn-primary w-full">Login</button>
-                    <p class="auth-switch">New to ROYAL PLANNERS? <a href="#" onclick="switchAuth('register')">Create an account</a></p>
+                    <p class="auth-switch">New to ROYAL PLANNERS? <a href="#" onclick="switchAuth('register')">Create an
+                            account</a></p>
                 </form>
             </div>
 
@@ -187,7 +225,8 @@
                         <input type="password" id="reg-password" placeholder="Password" required>
                     </div>
                     <button type="submit" class="btn-primary w-full">Register</button>
-                    <p class="auth-switch">Already have an account? <a href="#" onclick="switchAuth('login')">Log in</a></p>
+                    <p class="auth-switch">Already have an account? <a href="#" onclick="switchAuth('login')">Log in</a>
+                    </p>
                 </form>
             </div>
         </div>
@@ -235,12 +274,14 @@
                     </div>
                     <div class="input-group" style="grid-column: span 2;">
                         <label>Budget</label>
-                        <input type="text" id="app-budget" readonly style="background-color: var(--light-gray); font-weight: bold; cursor: not-allowed; color: var(--dark-navy);">
+                        <input type="text" id="app-budget" readonly
+                            style="background-color: var(--light-gray); font-weight: bold; cursor: not-allowed; color: var(--dark-navy);">
                     </div>
                 </div>
                 <div class="input-group mt-1">
                     <label>Special Requirements</label>
-                    <textarea id="app-requirements" placeholder="Tell us about themes, colors, or specific needs..."></textarea>
+                    <textarea id="app-requirements"
+                        placeholder="Tell us about themes, colors, or specific needs..."></textarea>
                 </div>
                 <button type="submit" class="btn-primary w-full mt-1">Submit Application</button>
             </form>
@@ -288,7 +329,7 @@
             const username = document.getElementById('reg-username').value;
             const email = document.getElementById('reg-email').value;
             const password = document.getElementById('reg-password').value;
-            
+
             try {
                 // Store in Firestore Database collection
                 const userDoc = doc(db, "users", email);
@@ -313,7 +354,7 @@
             event.preventDefault();
             const email = document.getElementById('login-email').value;
             const password = document.getElementById('login-password').value;
-            
+
             try {
                 await signInWithEmailAndPassword(auth, email, password);
                 alert('Welcome back!');
@@ -333,4 +374,5 @@
         };
     </script>
 </body>
+
 </html>
